@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+     display: flex;
+    height: 50px;
+    background-color: white;
+    justify-content: space-between;
+}
+.icon{
+    margin: 1rem;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+  
+}
+.sidebar{
+    height: 100vh;
+    width: 10%;
+    background-color:#583d72 ;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+.container{
+    padding: 3rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.icons{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.img{
+    border-radius: 50%;
+    margin: 1rem;
+}
+.left{
+    margin-left: 1rem;
+}
+.maincontent{
+    width: 90%;
+    float: right;
+}
+.heading{
+    margin: 1rem;
+    padding: 1rem;
+}
+.manager{
+    margin:1rem ;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start
+}
+.managercard{
+    background-color: #583d72 ;
+   
+}
+.managercard{
+    width: 25%;
+}
+.features{
+    width: 75%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+   width: 150px;
+   border-radius: 50%;
+
+}
+.details{
+    margin: 1rem;
+   
+}
+.toggle{
+    margin-left: 2rem;
+}
+.top{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.topbutton{
+    background-color:#fe8d6f ;
+    padding: .5rem;
+    border: none;
+    color: white;
+}
+.left{
+    display: flex;
+}
+.pbar{
+    background-color: #6eae84;;
+}
+.pbar2{
+    background-color: #a3d3c8 ;
+}
+.pbar3{
+    background-color: #fbbc93;
+}
+.calender{
+    margin-top : 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.selectdate{
+    display: flex;
+}
+.wtime{
+    margin-left: 2rem;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .manager {
+      flex-direction: column;
+    }
+    .managercard{
+        width: 100%;
+    }
+    .features{
+        width: 100%;
+    }
+    .top{
+        display: block;
+        margin-top: 1rem;
+    }
+    .left{
+        justify-content: space-between;
+    }
+    .toggle{
+        margin-left: 0;
+    }
+    .sessionbutton{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .productivity{
+        flex-direction: column;
+    }
+    .progresbar{
+        overflow: auto;
+    }
+    .calender{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wtime{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        display: flex;
+    }
+    .clock{
+        display: none;
+    }
+  }
